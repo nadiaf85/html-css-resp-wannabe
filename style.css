@@ -71,3 +71,40 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px){
+
+  body{
+    font-size: small;
+  }
+
+  img{
+    height: 80px;
+    width: 80px;
+    padding: 0;
+  }
+
+  .row h1{
+    text-align: start;
+    margin-left: 100px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right, 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 40%;
+  text-align: center;
+  float: none;
+  padding-bottom: 10px;
+}
+
+#lezioni , #why{
+  background-color: lightgoldenrodyellow;
+}
+
+}
